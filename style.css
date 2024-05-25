@@ -45,3 +45,52 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
+/* Resetting default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Styling the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Styling headings */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Styling paragraphs */
+p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Styling links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
